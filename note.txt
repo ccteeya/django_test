@@ -1,0 +1,24 @@
+# create django project
+django-admin startproject project_name
+
+# run server
+python manage.py runserver ip_address
+
+# create app
+python manage.py startapp app_name
+
+# generate and update db file with data
+python manage.py migrate
+
+# update db file
+python manage.py makemigrations app_name
+
+#insert info into user table
+python manage.py createsuperuser
+
+# change version of django
+1. pip install --update django django==x.x.x
+2. python -m django -version
+3. delete all migrate files of apps
+4. python manage.py migrate
+
