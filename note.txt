@@ -22,3 +22,6 @@ python manage.py createsuperuser
 3. delete all migrate files of apps
 4. python manage.py migrate
 
+
+#this line is to test commit command
+
