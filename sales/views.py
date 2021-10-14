@@ -65,7 +65,6 @@ def updatecustomers(request):
     except Custormer.DoesNotExist:
         return JsonResponse({'ret': 0,
                              'msg': 'the customer does not exist'})
-
     if 'name' in data:
         customer.name = data['name']
     if 'phone_number' in data:
